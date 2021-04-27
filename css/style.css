@@ -1,0 +1,94 @@
+
+.wieza {
+position: absolute;
+float: left;
+margin-left: 42%;
+}
+.apartamenty {
+    font-size: 25px;
+}
+.menu {
+position: relative;
+float: left;
+}
+.hr {
+    height: 10px;
+}
+.sortuj1 {
+width: 500px;
+height: 50px;
+border: 3px solid red;
+}
+.sortuj2 {
+    width: 500px;
+    height: 50px;
+    border: 3px solid green;
+    }
+.wybor {
+    width: 500px;
+    height: 50px;
+    border: 3px solid black;
+    }
+.left {
+    float: left;
+}
+.custom-banner {
+    padding: 5px 30px;
+    background: linear-gradient(rgba(0,0,0,0,), rgba(0,0,0,.7));
+  }
+
+  .banner-heading {
+    animation-name: anime;
+    animation-duration: 2s;
+    }
+    
+    .banner-p {
+      animation-name: anime;
+      animation-duration: 4s;
+      animation-delay: .5s;
+      animation-fill-mode: backwards;
+    }
+
+  @keyframes anime {
+    0% { 
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .fromLeft {
+    animation-name: fromLeft;
+    animation-duration: 4s;
+    animation: 
+  }
+  
+  @keyframes fromLeft {
+    0% { 
+      transform: translateX(-120px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .fromRight {
+    animation-name: fromRight;
+    animation-duration: 4s; 
+  }
+  
+  @keyframes fromRight {
+    0% { 
+      transform: translateX(70px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
